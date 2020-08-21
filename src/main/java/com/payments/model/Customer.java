@@ -6,6 +6,9 @@ public class Customer {
 	  private int age;
 	  private int discount;
 	  private String name;
+	  private String address;
+	  private Membership membership;
+	  
 
 	  public Customer(String name) {
 	    super();
@@ -35,4 +38,21 @@ public class Customer {
 	  public void setDiscount(int discount) {
 	    this.discount = discount;
 	  }
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public Membership getMembership() {
+		return membership;
+	}
+
+	public void setMembership(Membership membership) {
+		this.membership = membership;
+	}
+	  
 }
